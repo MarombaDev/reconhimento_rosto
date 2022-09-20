@@ -1,4 +1,4 @@
-
+#essas são as blibiotecas a serem integradas.
 dlib (windows https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 face_recognition
 numpy
