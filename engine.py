@@ -21,10 +21,5 @@ def get_rostos():
     if(lauro1[0]):
         rostos_conhecidos.append(lauro1[1][0])
         nomes_dos_rostos.append("Lauro")
-
-    julio1 = reconhece_face("./img/julio1.jpg")
-    if(julio1[0]):
-        rostos_conhecidos.append(julio1[1][0])
-        nomes_dos_rostos.apend("Prof: Julio")
-    
+ 
     return rostos_conhecidos, nomes_dos_rostos
